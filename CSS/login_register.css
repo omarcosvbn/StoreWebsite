@@ -1,0 +1,142 @@
+html{
+    overflow: hidden;
+}
+
+
+main{
+    background: linear-gradient(45deg, #012ec0, rgb(149, 31, 240));
+    background-size: 400% 400%;
+    animation-name: gradient;
+    animation-direction: normal;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    height:100vh;
+
+    display: flex;
+    justify-content: center;
+}
+
+.decor{
+    width: 100vw;
+}
+
+/*caixa para os dois forms e os botoes para trocar entre eles*/
+.caixa{
+    top:15vh;
+    height:90vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.error{
+    color:rgb(201,201,201);
+    display: flex;
+
+    justify-content: center;
+    height: 10px;
+    width: 100vw;
+    top: -20px;
+    position: relative;
+}
+
+/*botão de confirm dos 2 forms*/
+.confirm{
+    width: 20vw;
+    height: 40px; 
+    background-color: blueviolet;
+    
+    border: none;
+    border-radius: 40px; 
+
+    color: whitesmoke;
+    font-size:20pt;
+
+    bottom: 5vh;
+    position: fixed;
+}
+
+.confirm:hover{
+    background: rgb(37, 29, 153)
+}
+
+.confirm:active{
+        background: blueviolet;
+    }
+
+/*botoes para escolher entre cada form*/
+.button_LR{
+    width: 20%;
+    height:75px;
+
+    background-color: transparent;
+    color: whitesmoke;
+
+    font-size:35px;
+
+    border: none;
+    border-radius: 40px; 
+
+    top: 3vh;
+    position: absolute;
+}
+
+/*===========================================LOGIN=============================================*/
+#button_login{
+  left:30vw;
+}
+
+#button_login:hover{
+    background: rgb(37, 29, 153)
+}
+
+#button_login:active{
+    background: blueviolet;
+}
+
+/*===========================================REGISTER=============================================*/
+#button_register{
+    right:30vw;
+}
+
+#button_register:hover{
+    background: rgb(37, 29, 153)
+}
+
+#button_register:active{
+    background: blueviolet;
+}
+/*================================================================================================*/
+
+
+/* Caixas para colocar conteúdos do form */
+.input_box{
+    width: 25%;
+    height:50px;
+    border: rgb(0, 204, 255) solid;
+    background-color: transparent;
+    color: white;
+    font-size:20pt;
+    display: inline-block;
+    margin: 15px;
+}
+
+/* Para as colunas do form */
+#register{
+    display: none; /* JS altera entre o conteúdo dos botões */
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+#login{
+    display:flex; /* JS altera entre o conteúdo dos botões */
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}

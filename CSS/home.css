@@ -1,0 +1,40 @@
+main div {
+  padding-top: 15px;
+  padding-left: 50px;
+}
+
+main div:last-of-type {
+  padding-bottom: 70px;
+}
+
+main div div img {
+  border: 2px solid;
+  border-color: black;
+}
+
+
+#albuns{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+#btn_Store {
+  background-color: rgb(37, 29, 153);
+  color: rgb(201,201,201);
+  padding: 14px 25px;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  left: 80vw;
+  position: relative;
+}
+
+#btn_Store:hover {
+  background-color: #482ff7;
+}
+
+#btn_Store:active {
+  background-color: rgb(37, 29, 153);
+}

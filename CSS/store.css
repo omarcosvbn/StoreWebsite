@@ -1,0 +1,66 @@
+main .side-filter{
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: rgba(18, 0, 119, 0.781);
+}
+
+main .side-filter li a{
+  display: block;
+  color: rgb(201,201,201);
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+main .side-filter li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+main {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 30px;
+}
+
+main #filter {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 30px;
+}
+
+main #genre {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 30px;
+}
+
+main #itens {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 50px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+main .album {
+  display: flex;
+  align-items:center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+main div:last-of-type {
+  padding-bottom: 150px;
+}
+
+#button_AddCart{
+  height: 30px;
+}

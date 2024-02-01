@@ -1,0 +1,44 @@
+nav a {
+  text-decoration: none;
+}
+
+nav{
+  position: sticky;
+  top: 0;
+  background-color: #18213f;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.nav-link{
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: rgb(201, 201, 201);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-link:hover{
+  color: #7965fd;
+}
+
+#username{ /* maybe mudar para coisas de php/sql com uma classe*/
+  top: 10px;
+  position: relative;
+}
+

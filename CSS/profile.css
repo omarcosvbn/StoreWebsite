@@ -1,0 +1,67 @@
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+main #menu{
+    display: flex;
+    margin-top: 100px;
+    border: 2px solid black;
+    border-right: none;
+    border-left: none;
+}
+
+main #side-bar{
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid black;
+}
+
+main #side-bar button{
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    background-color: white;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+main #side-bar button:nth-child(2){
+    border-top: 2px solid black;
+}
+
+/*botoes js mudam*/
+main #personal-data{
+    display: block;
+    position: absolute;
+}
+
+main #order-history{
+    display: none;
+    position: absolute;
+}
+
+#logout{
+    width: 20vw;
+    height: 40px; 
+    background-color: blueviolet;
+    
+    border: none;
+    border-radius: 40px; 
+
+    color: whitesmoke;
+    font-size:15pt;
+
+    bottom: 5vh;
+    position: fixed;
+}
+
+#logout:hover{
+    background: rgb(37, 29, 153)
+}
+
+#logout:active{
+        background: blueviolet;
+}
+

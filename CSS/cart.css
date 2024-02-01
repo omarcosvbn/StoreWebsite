@@ -1,0 +1,25 @@
+body{
+    text-align: center
+}
+
+main .box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main .item{
+    display: inline-flex;
+    align-items: center;
+    border: 2px solid black;
+}
+
+main .total{
+    display: inline-flex;
+}

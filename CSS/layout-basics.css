@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Josefin Sans', sans-serif;
+  scrollbar-width: none; 
+}
+
+.decor {
+  background-image: url("/IMAGES/fundo_padrao.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+header{
+    background: linear-gradient(45deg, #012ec0, rgb(149, 31, 240));
+    background-size: 400% 400%;
+    animation-name: gradient;
+    animation-direction: normal;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+    height:100vh;
+  }
+
+  header h1 {
+    font-size: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+  
+  
+    align-items:center;
+    height:100vh;
+  }
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  /*neon*/
+  #neonText {
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px rgb(183, 95, 224),
+      0 0 82px rgb(183, 95, 224),
+      0 0 92px rgb(183, 95, 224),
+      0 0 102px rgb(183, 95, 224),
+      0 0 151px rgb(183, 95, 224);
+  }
+
+
+main{
+  background-color: #b0c3ff;
+}
+
+
+ 
